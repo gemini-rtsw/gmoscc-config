@@ -1,0 +1,10 @@
+# Files the gmoscc RPM owns in data/ -- built (capfast .db, alh configs,
+# resource.def) or shipped as static files (screens, scripts). They are
+# reinstalled on every upgrade, so they are not tuning and are not tracked.
+*.db
+*.alhConfig
+resource.def
+*.dl
+*.sh
+*.py
+*.test
